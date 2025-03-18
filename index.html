@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Database Website</title>
+</head>
+<body onload="applyXSLT()">
+
+    <h1>Movie Database Website</h1>
+
+    <div id="output"></div>
+
+    <div class="container">
+        <h2>XPath Query</h2>
+        <div class="prebuilt-query">
+            <h3>Try this XPath Queries:</h3>
+            <p>Select all movie titles: <span id="pre-query1">//movieTitle</span></p>
+            <p>Select the director of the second movie: <span id="pre-query2">/movies/movie[2]/director</span></p>
+            <p>Select all the actors of the fourth movie: <span id="pre-query3">/movies/movie[4]/actors/actor</span></p>
+        </div>
+        
+        <div class="custom-query">
+            <input type="text" id="xpathQuery" placeholder="Enter XPath (e.g., //movieTitle)" />
+            <button onclick="queryXML()">Run Query</button>
+        </div>
+        <div id="queryOutput"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

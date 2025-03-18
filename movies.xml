@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<movies>
+    <movie id="1">
+        <movieTitle>The Innovators</movieTitle>
+        <director>Ava DuVernay</director>
+        <actors>
+            <actor>Michael B. Jordan</actor>
+            <actor>Zazie Beetz</actor>
+            <actor>John David Washington</actor>
+        </actors>
+        <year>2010</year>
+    </movie>
+
+    <movie id="2">
+        <movieTitle>Cyber Heist</movieTitle>
+        <director>Denis Villeneuve</director>
+        <actors>
+            <actor>Oscar Isaac</actor>
+            <actor>Ana de Armas</actor>
+            <actor>Dave Bautista</actor>
+        </actors>
+        <year>2016</year>
+    </movie>
+
+    <movie id="3">
+        <movieTitle>Kingdom of Sands</movieTitle>
+        <director>Chloé Zhao</director>
+        <actors>
+            <actor>Rami Malek</actor>
+            <actor>Sofia Boutella</actor>
+            <actor>Mahershala Ali</actor>
+        </actors>
+        <year>2019</year>
+    </movie>
+
+    <movie id="4">
+        <movieTitle>The Titan's Legacy</movieTitle>
+        <director>Pattie Jenkins</director>
+        <actors>
+            <actor>Chris Hemsworth</actor>
+            <actor>Charlize Theron</actor>
+            <actor>Idris Elba</actor>
+        </actors>
+        <year>2014</year>
+    </movie>
+
+    <movie id="5">
+        <movieTitle>The Witch's Gambit</movieTitle>
+        <director>Jordan Peele</director>
+        <actors>
+            <actor>Florence Pugh</actor>
+            <actor>Daniel Kaluuya</actor>
+            <actor>Toni Collette</actor>
+        </actors>
+        <year>2013</year>
+    </movie>
+</movies>
